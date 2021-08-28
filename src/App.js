@@ -10,7 +10,9 @@ import ContactUs from "./pages/ContactUs";
 function App() {
   return (
     <BrowserRouter>
-      <Navbar />
+          
+          <Navbar />
+          
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/team" component={Team} />
